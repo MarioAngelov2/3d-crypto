@@ -1,4 +1,5 @@
 import LetterCanvas from "./components/LetterCanvas";
+import Slider from "./components/Slider";
 import { data } from "./mock/data";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <LetterCanvas />
       </div>
 
+      {/* SECONG PAGE */}
       <div className="bg-gray-900 min-h-[80vh]">
         <div className="max-w-[1000px] mx-auto flex flex-col items-center">
           <div className="flex flex-col items-center gap-20 mt-28">
@@ -52,6 +54,11 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* THIRD PAGE */}
+      <div className="pb-24 bg-white">
+        <Slider />
       </div>
     </div>
   );
