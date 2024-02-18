@@ -21,7 +21,7 @@ const company = [
 
 const Footer = () => {
   return (
-    <div className="bg-gray-950 min-h-48">
+    <div className="bg-gray-900 min-h-48">
       <div className="w-full max-w-6xl mx-auto">
         <div className="grid items-center grid-cols-1 gap-4 px-6 py-10 mt-4 lg:grid-cols-4">
           <div className="flex flex-col">
