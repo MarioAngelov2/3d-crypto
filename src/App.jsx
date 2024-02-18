@@ -9,7 +9,7 @@ function App() {
         <b className="flex-1">crypto</b>
       </div>
 
-      <div className="h-[200vh]">
+      <div className="h-[150vh]">
         <LetterCanvas />
       </div>
 
@@ -23,7 +23,7 @@ function App() {
             <button className="text-white border rounded-3xl md:w-[35%] p-3 hover:bg-gray-800 transition duration-300 ease-in-out">
               Check crypto prices
             </button>
-            <div className="grid w-full gap-8 px-2 pb-10 md:px-0 md:pb-0">
+            <div className="grid w-full gap-8 px-2 pb-20 md:px-0 md:pb-0">
               {data.map((coin, index) => (
                 <div
                   key={index}
