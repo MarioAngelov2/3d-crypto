@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import LetterCanvas from "./components/LetterCanvas";
 import Slider from "./components/Slider";
 import { data } from "./mock/data";
@@ -5,8 +6,10 @@ import { data } from "./mock/data";
 function App() {
   return (
     <div className="w-[100%] bg-gray-950">
-      <div className="text-[#c3fa01] text-2xl md:text-6xl py-3 pl-10 flex-row flex">
-        <b className="flex-1">crypto</b>
+      <div className="w-full max-w-6xl mx-auto">
+        <div className="text-[#c3fa01] text-2xl md:text-6xl py-3 pl-10 flex-row flex">
+          <b className="flex-1">crypto</b>
+        </div>
       </div>
 
       <div className="h-[150vh]">
@@ -15,7 +18,7 @@ function App() {
 
       {/* SECONG PAGE */}
       <div className="bg-gray-900 min-h-[80vh]">
-        <div className="max-w-[1000px] mx-auto flex flex-col items-center">
+        <div className="flex flex-col items-center max-w-6xl mx-auto">
           <div className="flex flex-col items-center gap-20 mt-28">
             <h1 className="text-2xl font-semibold tracking-wider text-center text-white md:text-5xl">
               Buy Bitcoin, Ethereum, and 250+ cryptocurrencies
@@ -60,6 +63,9 @@ function App() {
       <div className="pb-24 bg-white">
         <Slider />
       </div>
+
+      {/* FOURTH PAGE */}
+      <Footer />
     </div>
   );
 }

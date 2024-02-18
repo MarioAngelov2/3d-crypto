@@ -64,12 +64,6 @@ const LetterScene = () => {
           </Text>
           <pointsMaterial color="#c3fa01" size={0.01} />
         </points>
-
-        {/* <group position={[0, -2.3, 0]}>
-          <Text ref={textRef} scale={0.2} color="#c3fa01" fontSize={1.2}>
-            Millions of customers trust us with their digital assets
-          </Text>
-        </group> */}
       </group>
     </>
   );
