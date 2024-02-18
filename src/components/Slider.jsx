@@ -10,7 +10,7 @@ const Slider = () => {
   return (
     <>
       <div className="bg-white">
-        <h1 className="py-12 font-bold text-center text-md md:text-6xl">
+        <h1 className="py-12 text-2xl font-bold text-center md:text-6xl">
           PARTNERSHIPS
         </h1>
       </div>

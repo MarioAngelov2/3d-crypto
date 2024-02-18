@@ -17,7 +17,7 @@ function App() {
       <div className="bg-gray-900 min-h-[80vh]">
         <div className="max-w-[1000px] mx-auto flex flex-col items-center">
           <div className="flex flex-col items-center gap-20 mt-28">
-            <h1 className="text-xl font-semibold tracking-wider text-center text-white md:text-5xl">
+            <h1 className="text-2xl font-semibold tracking-wider text-center text-white md:text-5xl">
               Buy Bitcoin, Ethereum, and 250+ cryptocurrencies
             </h1>
             <button className="text-white border rounded-3xl md:w-[35%] p-3 hover:bg-gray-800 transition duration-300 ease-in-out">
