@@ -52,6 +52,20 @@ const Slider = () => {
               className="h-20 p-4 border-[2px] md:h-40"
             />
           </div>
+          <div className="ml-4">
+            <img
+              src={img5}
+              alt="img5"
+              className="h-20 p-4 border-[2px] md:h-40"
+            />
+          </div>
+          <div className="ml-4">
+            <img
+              src={img5}
+              alt="img5"
+              className="h-20 p-4 border-[2px] md:h-40"
+            />
+          </div>
         </div>
       </Marquee>
 
@@ -82,6 +96,20 @@ const Slider = () => {
             <img
               src={img4}
               alt="img4"
+              className="h-20 p-4 border-[2px] md:h-40"
+            />
+          </div>
+          <div className="ml-4">
+            <img
+              src={img5}
+              alt="img5"
+              className="h-20 p-4 border-[2px] md:h-40"
+            />
+          </div>
+          <div className="ml-4">
+            <img
+              src={img5}
+              alt="img5"
               className="h-20 p-4 border-[2px] md:h-40"
             />
           </div>
