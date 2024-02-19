@@ -1,15 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
-import * as THREE from "three";
-import { Float, OrbitControls, Text } from "@react-three/drei";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { Points, PointMaterial, Preload } from "@react-three/drei";
+import { Text } from "@react-three/drei";
+import { Canvas, useFrame} from "@react-three/fiber";
+import { Points, PointMaterial} from "@react-three/drei";
 import { random } from "maath";
 
 const LetterScene = () => {
   // defining the ref for the group
   const ref = useRef();
   const sphereRef = useRef();
-  const textRef = useRef();
 
   // creating a sphere of points
   const [sphere] = useState(() =>

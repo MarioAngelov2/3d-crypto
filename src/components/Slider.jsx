@@ -1,4 +1,3 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
 import img1 from "/image1.jpeg";
 import img2 from "/image2.png";
@@ -10,7 +9,7 @@ const Slider = () => {
   return (
     <>
       <div className="bg-white">
-        <h1 className="py-12 text-2xl font-bold text-center md:text-6xl">
+        <h1 className="py-12 text-2xl font-bold text-center md:text-5xl">
           PARTNERSHIPS
         </h1>
       </div>
